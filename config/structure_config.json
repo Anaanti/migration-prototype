@@ -1,0 +1,4 @@
+{
+  "levels": ["dept", "project"],
+  "filename_pattern": "{index_id}_{original_name}"
+}

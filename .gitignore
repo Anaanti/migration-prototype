@@ -1,0 +1,19 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Project specific staging and storage
+staging/
+final_storage/
+dummy_source/
+
+# Logs and Metadata (if they contain sensitive/large data)
+logs/*.csv
+logs/*.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+{
+  "spec_v1.pdf": {
+    "index_id": "IDX-1001",
+    "dept": "Dept_A",
+    "project": "Project_Alpha"
+  },
+  "design_notes.txt": {
+    "index_id": "IDX-1002",
+    "dept": "Dept_A",
+    "project": "Project_Alpha"
+  },
+  "report_final.xlsx": {
+    "index_id": "IDX-2001",
+    "dept": "Dept_A",
+    "project": "Project_Beta"
+  },
+  "roadmap.docx": {
+    "index_id": "IDX-3001",
+    "dept": "Dept_A",
+    "project": "Project_Beta"
+  },
+  "log_001.log": {
+    "index_id": "IDX-4001",
+    "dept": "Dept_B",
+    "project": "Project_Gamma"
+  }
+}
