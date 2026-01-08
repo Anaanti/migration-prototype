@@ -66,10 +66,7 @@ for file_name in os.listdir(STAGING_DIR):
 
         os.makedirs(target_dir, exist_ok=True)
 
-        new_name = filename_pattern.format(
-            index_id=file_info["index_id"],
-            original_name=file_name
-        )
+        new_name = file_name
 
         target_path = os.path.join(target_dir, new_name)
 
@@ -82,7 +79,7 @@ for file_name in os.listdir(STAGING_DIR):
                 datetime.utcnow().isoformat(),
                 source_path,
                 target_path,
-                file_info["index_id"]
+                file_info.get("index_id", "N/A") # Uses "N/A" if index_id is deleted
             ])
 
         print(f"Migrated: {file_name}")
